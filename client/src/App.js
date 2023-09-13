@@ -15,7 +15,7 @@ function App() {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(name);
-    fetch('http://localhost:4000/', {
+    fetch('http://51.20.3.218:4000/', {
      
     // Adding method type
     method: "POST",
